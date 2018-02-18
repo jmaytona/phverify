@@ -1,32 +1,24 @@
 <?php
     include 'header.php';
 ?>
-
-    <div class="jumbotron">
-        <h1 class="display-3">BGC Search</h1>
-    </div>
-    <!--Search Form-->
-    <div class='container-fluid'>
+    <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <form action="search.php" method="POST" class="main-form">
-                    <input class="form-control" type="text" name="search" placeholder="Patrick is an Idiot">
-                    <button type="submit" name="submit-search" class="btn btn-primary btn-lg btn-block">Search</button>
-                </form>
+                <h1>Search Result:</h1>
             </div>
         </div>
-    </div>
-
-<!--
-<br> 
-    <div class="container">
-        <h1>School Database</h1>
-        <?php
-            $sql = "SELECT * FROM school";
+        </div>
+<div class="container">
+    <?php
+        if (isset($_POST['submit-search'])) {
+            $search = mysqli_real_escape_string($conn, $_POST['search']);
+            $sql = "SELECT * FROM school WHERE schoolName LIKE '%$search%'";
             $result = mysqli_query($conn, $sql);
-            $queryResults = mysqli_num_rows($result);
-        
-        if ($queryResults > 0){
+            $queryResult = mysqli_num_rows($result);
+            
+            echo "Number of result: ".$queryResult;
+            
+            if ($queryResult > 0){
             while($row = mysqli_fetch_assoc($result)){
                 echo "<div class='panel panel-default'>
                     <h3 class='panel-heading'>".$row['schoolName']."</h3>
@@ -37,12 +29,15 @@
                     <p class='p-margin'><strong>Email Address: </strong>".$row['emailAdd']."</p>
                 </div>";
             }
-        } 
-        ?>
-    </div>-->
+        } else {
+                echo "There are no results matching your search!";
+            }
+        }
+
+    ?>
+    
+</div>
 
 <?php
     include 'footer.php';
 ?>
-
-

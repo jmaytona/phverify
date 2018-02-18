@@ -7,6 +7,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script>
+        /*index.php*/
         window.sr = ScrollReveal();
         sr.reveal('.navbar', {
             duration: 2000,
@@ -25,7 +26,11 @@
             duration: 2000,
             origin: 'bottom'
         });
-
+        /*search.php*/
+        sr.reveal('.container', {
+            duration: 2000,
+            origin: 'bottom'
+        });
     </script>
 
 </body>
