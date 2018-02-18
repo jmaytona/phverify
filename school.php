@@ -1,43 +1,37 @@
 <?php
     include 'header.php';
 ?>
+
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Search Result:</h1>
+                <h1>School Details: </h1>
             </div>
         </div>
-        </div>
-<div class="container">
-    <?php
-        if (isset($_POST['submit-search'])) {
-            $search = mysqli_real_escape_string($conn, $_POST['search']);
-            $sql = "SELECT * FROM school WHERE schoolName LIKE '%$search%'";
+    </div>
+
+    <div class="container">
+        <?php
+            $title = mysqli_real_escape_string($conn, $_GET['title']);
+            $sql = "SELECT * FROM school WHERE schoolName='$title'";
             $result = mysqli_query($conn, $sql);
-            $queryResult = mysqli_num_rows($result);
-            
-            echo "Number of result: ".$queryResult;
-            
-            if ($queryResult > 0){
+            $queryResults = mysqli_num_rows($result);
+        
+        if ($queryResults > 0){
             while($row = mysqli_fetch_assoc($result)){
-                echo "<a href='school.php?title=".$row['schoolName']."'><div class='panel panel-default'>
+                echo "<div class='panel panel-default'>
                     <h3 class='panel-heading'>".$row['schoolName']."</h3>
                     <p class='p-margin'><strong>Region: </strong>".$row['region']."</p>
                     <p class='p-margin'><strong>Operating Hours: </strong>".$row['operatingHours']."</p>
                     <p class='p-margin'><strong>Address: </strong>".$row['address']."</p>
                     <p class='p-margin'><strong>Contact Number: </strong>".$row['contactNum']."</p>
                     <p class='p-margin'><strong>Email Address: </strong>".$row['emailAdd']."</p>
-                </div></a>";
+                </div>";
             }
-        } else {
-                echo "There are no results matching your search!";
-            }
-        }
+        } 
+        ?>
+    </div>
 
-    ?>
-    
-</div>
-
-<?php
+    <?php
     include 'footer.php';
 ?>
