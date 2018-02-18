@@ -17,6 +17,36 @@
         </div>
     </div>
 
+<hr>
+<br>
+    
+    <div class="container">
+        <h1>School Database</h1>
+        <?php
+            $sql = "SELECT * FROM school";
+            $result = mysqli_query($conn, $sql);
+            $queryResults = mysqli_num_rows($result);
+        
+        if ($queryResults > 0){
+            while($row = mysqli_fetch_assoc($result)){
+                echo "<div class='panel panel-default'>
+                    <h3 class='panel-heading'>".$row['schoolName']."</h3>
+                    <p class='p-margin'><strong>Region: </strong>".$row['region']."</p>
+                    <p class='p-margin'><strong>Operating Hours: </strong>".$row['operatingHours']."</p>
+                    <p class='p-margin'><strong>Address: </strong>".$row['address']."</p>
+                    <p class='p-margin'><strong>Contact Number: </strong>".$row['contactNum']."</p>
+                    <p class='p-margin'><strong>Email Address: </strong>".$row['emailAdd']."</p>
+                </div>";
+            }
+        }
+                
+        
+        ?>
+
+    </div>
+
 <?php
     include 'footer.php';
 ?>
+
+
