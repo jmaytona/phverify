@@ -31,6 +31,12 @@
             duration: 2000,
             origin: 'bottom'
         });
+        sr.reveal('.about', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        
+        
     </script>
 
 </body>
