@@ -1,0 +1,69 @@
+body {
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Poppins;
+}
+
+p {
+    font-family: Roboto;
+}
+
+.navbar-default {
+    background: #fff;
+    border: 0;
+    font-family: Poppins;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+footer {
+    padding: 30px;
+}
+
+/*Added CSS*/
+
+/*Jumbotron*/
+
+div.jumbotron {
+    text-align: center;
+}
+
+h1.display-3 {
+    font-weight: 700;
+}
+
+/*Search Form*/
+
+button.btn {
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 12px;
+}
+
+input.form-control {
+    width: 50%;
+    height: 45px;
+    margin: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+
