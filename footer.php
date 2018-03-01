@@ -35,6 +35,10 @@
             duration: 2000,
             origin: 'bottom'
         });
+        sr.reveal('.text-center', {
+            duration: 2000,
+            origin: 'bottom'
+        });
         
         
     </script>

@@ -19,7 +19,7 @@
         
         if ($queryResults > 0){
             while($row = mysqli_fetch_assoc($result)){
-                echo "<a href='school.php?title=".$row['schoolName']."'><div class='panel panel-default'>
+                echo "<a href='school.php?title=".$row['schoolName']."'><div class='panel panel-default'></a>
                     <h3 class='panel-heading'>".$row['schoolName']."</h3>
                     <p class='p-margin'><strong>Region: </strong>".$row['region']."</p>
                     <p class='p-margin'><strong>Preferred Method of Verification: </strong>".$row['method']."</p>
@@ -33,7 +33,7 @@
                     <p class='p-margin'><strong>Document Required: </strong>".$row['documentRequired']."</p>
                     <p class='p-margin'><strong>Additional Required Document: </strong>".$row['additionalDocument']."</p>
                     <p class='p-margin'><strong>Source: </strong>".$row['source']."</p>
-                </div></a>";
+                </div>";
             }
         } 
         ?>

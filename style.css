@@ -34,6 +34,20 @@ footer {
 }
 
 /*Added CSS*/
+p.text-center {
+    font-size: 12px;
+}
+
+/*Contact*/
+
+#contact {
+    background-color: #f1f1f1;
+    padding: 40px;
+    color: black;
+/*    border-top: #333 7px solid;
+    border-bottom: #333 7px solid;*/
+}
+
 
 /*Jumbotron*/
 

@@ -28,7 +28,7 @@
                 </div></a>";
             }
         } else {
-                echo "There are no results matching your search!";
+                echo "<br> There are no results matching your search!";
             }
         }
 
