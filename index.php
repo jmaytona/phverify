@@ -3,12 +3,12 @@
 ?>
 
     <div class="jumbotron">
-        <h1 class="display-3">BGC Search</h1>
-        <p class="p-margin">"A free online resource that contains education verification details for top schools and universities in NCR/Calabarzon Area. <br>Perfect for Recruiters, HR practioners and even background check verifiers!"</p>
+        <h1 class="display-3">PH Verify</h1>
+            <p class="p-margin">A free online resource that contains education verification details for top schools and universities in NCR/Calabarzon Area. <br>Perfect for Recruiters, HR practioners and even background check verifiers.</p>
     </div>
 
-<p class="text-center"><em>NCR and CALABARZON only - Based on Ched Masterlist ao 2017</em></p>
-<br>
+    <p class="text-center"><em>NCR and CALABARZON only - Based on Ched Masterlist ao 2017</em></p>
+    <br>
     <!--Search Form-->
     <div class='container-fluid'>
         <div class="row">
@@ -20,8 +20,8 @@
             </div>
         </div>
     </div>
-<br>
-<p class="text-center"><em>Disclaimer: Information shown in this website were gathered manually or electronically thru publicly available data. Please use at your own risk</em></p>
+    <br>
+    <p class="text-center"><em>Disclaimer: Information shown in this website were gathered manually or electronically thru publicly available data. Please use at your own risk</em></p>
 
     <!--
 <br> 
