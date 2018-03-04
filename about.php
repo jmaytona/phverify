@@ -1,11 +1,12 @@
 <?php
+    $pageTitle = 'About Page';
     include 'header.php';
 ?>
 
-    <div class="about">
+    <div class="header-title">
         <h1>About</h1>
     </div>
-    <div class="privacyback">
+    <div class="dark-background">
         <div class="container">
             <h4><u>PHVerify.com</u></h4>
             <p>PHVerify.com is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p>

@@ -1,120 +1,138 @@
 body {
     margin-top: 70px;
-    font-size: 16px;
     display: block;
+    background-color: #e9e9e9;
 }
 
 h1,
 h2,
-h3,
+h3 {
+    font-family: 'Vollkorn', serif;
+    color: #333A56;
+}
+
 h4,
 h5,
 h6 {
-    font-family: Poppins;
+    font-family: 'Vollkorn', serif;
+    color: #F7F5E6;
 }
 
 p {
-    font-family: Roboto;
+    font-family: 'Open Sans', sans-serif;
 }
 
-
-.navbar-default {
-    background: #fff;
-    border: 0;
-    font-family: Poppins;
+label {
+    font-family: 'Vollkorn', serif;
+    color: #333A56;
 }
 
-.navbar-brand {
-    font-size: 20px;
-    color: #000 !important;
-    font-weight: bold;
-}
-
-footer {
-    padding: 30px;
-}
-
-/*Added CSS*/
-p.text-center {
-    font-size: 12px;
-}
-
-/*Contact*/
-
-#contact {
-    background-color: #f1f1f1;
-    padding: 40px;
-    color: black;
-/*    border-top: #333 7px solid;
-    border-bottom: #333 7px solid;*/
-}
-
-
-/*Jumbotron*/
+/*JUMBOTRON*/
 
 div.jumbotron {
     text-align: center;
+    background-color: #88bbd6;
+
+}
+
+.jumbotron p {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h1.display-3 {
     font-weight: 700;
+    color: white;
 }
 
-/*Search Form*/
+/*######################### HEADER #########################*/
 
-button.btn {
-    width: 50%;
-    margin: auto;
-    display: block;
-    margin-top: 12px;
+/*NAVBAR*/
+
+.navbar{
+    background-color: white;
+    font-size: 15px;
+    border: 0;
+    font-family: 'Vollkorn', serif;
 }
 
-input.form-control {
+.navbar-brand {
+    font-size: 25px;
+    color: #cdcdcd !important;
+    font-weight: bold;
+}
+
+.listcolor {
+    font-size: 20px;
+    color: #cdcdcd !important;
+    /*background-color: white;*/
+}
+
+/*######################### INDEX PAGE #########################*/
+
+/*SEARCH FORM*/
+
+input#main-search {
     width: 50%;
     height: 45px;
     margin: auto;
     display: block;
 }
 
+button#main-search {
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 12px;
+    background-color: #88bbd6;
+    color: white;
+}
 
-/*School Panel Bootstrap3*/
+/*SMALL NOTE*/
+
+.note-design {
+    color: #88bbd6;
+    font-style: italic;
+}
+
+/*######################### SEARCH PAGE #########################*/
+
+/*######################### SCHOOL PAGE #########################*/
 
 
-/*.p-margin {
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 15px;
-}*/
+/*######################### ABOUT PAGE #########################*/
 
-/*About*/
-
-div.about {
+div.header-title {
     text-align: center;
 }
-.privacyback {
-    background: #f1f1f1;
-    padding: 50px 0 30px 0;
-    margin-top: 40px;
+
+/*######################### CONTACT PAGE #########################*/
+
+
+/*######################### FOOTER #########################*/
+
+footer {
+    background-color: white;
+    padding: 30px;
+}
+footer p {
+    color: #cdcdcd;
 }
 
-.back {
+
+/*######################### Background #########################*/
+
+.dark-background {
+    background: #52658F;
+    padding: 50px 0 30px 0;
+    margin-top: 40px;
+    color: #E8E8E8;
+}
+
+.light-background {
     background: #f1f1f1;
     padding: 50px 0 30px 0;
     text-align: center;
     margin-top: 40px;
 }
-
-.back p {
-    font-size: 32px;
-    font-family: 'Josefin Sans';
-    color: #000;
-}
-
-.back p.customer {
-    font-size: 20px;
-    color: #666;
-}
-
-
-
-

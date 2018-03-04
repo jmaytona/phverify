@@ -1,4 +1,26 @@
 <?php
+
+$server = "localhost";
+$username = "root";
+$password = "password99";
+$dbname = "dbsearch2";
+
+$conn = mysqli_connect($server, $username, $password, $dbname);
+
+?>
+
+<?php
+            $title = mysqli_real_escape_string($conn, $_GET['title']);
+            $sql = "SELECT * FROM school2 WHERE schoolName='$title'";
+            $result = mysqli_query($conn, $sql);
+            $queryResults = mysqli_num_rows($result);
+
+if ($queryResults > 0){
+            while($row = mysqli_fetch_assoc($result)){
+                $pageTitle = $row['schoolName'];
+            }
+}
+    /*$pageTitle = $queryResults;*/
     include 'header.php';
 ?>
 

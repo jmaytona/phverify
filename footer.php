@@ -9,10 +9,10 @@
     <script>
         /*index.php*/
         window.sr = ScrollReveal();
-        sr.reveal('.navbar', {
+/*        sr.reveal('.navbar', {
             duration: 2000,
             origin: 'bottom'
-        });
+        });*/
         sr.reveal('.jumbotron', {
             duration: 2000,
             origin: 'bottom'
@@ -27,10 +27,7 @@
             origin: 'bottom'
         });
         /*search.php*/
-        sr.reveal('.container', {
-            duration: 2000,
-            origin: 'bottom'
-        });
+        
         sr.reveal('.about', {
             duration: 2000,
             origin: 'bottom'

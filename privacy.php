@@ -1,11 +1,12 @@
 <?php
+    $pageTitle = 'Privacy Page';
     include 'header.php';
 ?>
 
-    <div class="about">
+    <div class="header-title">
         <h1>PH Verify Privacy Statement<br>Updated as of: </h1>
     </div>
-    <div class="privacyback">
+    <div class="dark-background">
         <div class="container">
             <h4><u>Thank you for trusting PH Verify</u></h4>
             <p>Holding onto your private information is a serious responsibility, and we want you to know how we're handling it.</p>
