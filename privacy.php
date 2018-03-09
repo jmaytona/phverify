@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = 'Privacy Page';
+    $pageTitle = 'Privacy';
     include 'header.php';
 ?>
 

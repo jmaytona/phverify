@@ -1,5 +1,5 @@
 <?php
-    $pageTitle = 'Search Page';
+    $pageTitle = 'Search';
     include 'header.php';
 ?>
     <div class="container">

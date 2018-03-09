@@ -1,0 +1,19 @@
+RewriteEngine on
+
+# Rewrite for index.php
+RewriteRule ^index index.php [NC,L]
+
+# Rewrite for about.php
+RewriteRule ^about about.php [NC,L]
+
+# Rewrite for contact.php
+RewriteRule ^contact contact.php [NC,L]
+
+# Rewrite for privacy.php
+RewriteRule ^privacy privacy.php [NC,L]
+
+# Rewrite for school.php
+RewriteRule ^school school.php [NC,L]
+
+# Rewrite for school.php
+RewriteRule ^school/([a-zA-Z-]+)/$ school.php?title=$1 [NC,L]
