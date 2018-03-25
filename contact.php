@@ -3,20 +3,18 @@
     include 'header.php';
 ?>
 
-    <div class="header-title">
-        <h1>Contact Us</h1>
-    </div>
-    <br>
     <div class="dark-background">
-        <div class="container">
-            <h4>For question, comments and suggestions, you may email us at phverify@yahoo.com.ph</h4>
-            <h4>To report inaccurate entries, please use the report form below:</h4>
+        <div class="row">
+            <h1 class="display-about">For questions, comments and suggestions, you may email us at admin@phverify.com</h1>
+            <h4 class="display-about">To report inaccurate entries, please use the report form below:</h4>
         </div>
     </div>
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">Contact Form</div>
                     <div class="panel-body">
@@ -33,13 +31,13 @@
                                 <label class="contact-label" for="exampleFormControlTextarea1">Message</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 <br>
-                                <button type="submit" name="submit-contact" class="btn btn-primary btn-lg btn-block">Submit</button>
+                                <button type="submit" name="submit-contact" class="btn btn-primary btn-lg btn-block" id="contact-search">Submit</button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
             </div>
         </div>
     </div>

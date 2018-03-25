@@ -1,49 +1,62 @@
 body {
     margin-top: 70px;
     display: block;
-    background-color: #e9e9e9;
+    background-color: white;
 }
 
 h1,
 h2,
 h3 {
-    font-family: 'Vollkorn', serif;
-    color: #333A56;
+    font-family: 'Montserrat', sans-serif;
+    color: #52658F;
 }
 
-h4,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #52658F;
+}
 h5,
 h6 {
-    font-family: 'Vollkorn', serif;
-    color: #F7F5E6;
+    font-family: 'Montserrat', sans-serif;
+    color: #52658F;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', serif;
+    color: #52658F;
+    text-align: justify;
+    line-height: 27px;
+}
+li {
+    font-family: 'Open Sans', serif;
+    color: #52658F;
+    line-height: 27px;
+    font-size: 12px;
 }
 
 label {
-    font-family: 'Vollkorn', serif;
-    color: #333A56;
+    font-family: 'Montserrat', sans-serif;
+    color: #52658F;
 }
 
 /*JUMBOTRON*/
 
 div.jumbotron {
     text-align: center;
-    background-color: #88bbd6;
+    background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
 
 }
 
 .jumbotron p {
-    color: white;
+    color: #F7F5E6;
+    text-align: left;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 h1.display-3 {
     font-weight: 700;
-    color: white;
+    color: #F7F5E6;
 }
 
 /*######################### HEADER #########################*/
@@ -54,18 +67,19 @@ h1.display-3 {
     background-color: white;
     font-size: 15px;
     border: 0;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    color: #cdcdcd !important;
+    color: #333A56 !important;
     font-weight: bold;
 }
 
 .listcolor {
     font-size: 20px;
-    color: #cdcdcd !important;
+    color: #333A56 !important;
     /*background-color: white;*/
 }
 
@@ -85,54 +99,110 @@ button#main-search {
     margin: auto;
     display: block;
     margin-top: 12px;
-    background-color: #88bbd6;
+    background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
     color: white;
 }
 
 /*SMALL NOTE*/
 
 .note-design {
-    color: #88bbd6;
-    font-style: italic;
+    color: #52658F;
+    font-size: 12px;
 }
 
 /*######################### SEARCH PAGE #########################*/
 
 /*######################### SCHOOL PAGE #########################*/
 
+.banner {
+    display: block;
+    margin: auto;
+}
 
-/*######################### ABOUT PAGE #########################*/
+.margin-div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.margin-terms {
+    margin-right: 50px;
+}
+
+
+/*######################### ABOUT/PRIVACY/DISCLAIMER PAGE #########################*/
 
 div.header-title {
     text-align: center;
 }
 
+.display-about {
+    margin: 100px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
 /*######################### CONTACT PAGE #########################*/
+
+button#contact-search{
+    background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
+}
 
 
 /*######################### FOOTER #########################*/
 
 footer {
-    background-color: white;
+    background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
     padding: 30px;
 }
 footer p {
-    color: #cdcdcd;
+    color: #F7F5E6;
 }
 
 
 /*######################### Background #########################*/
 
 .dark-background {
-    background: #52658F;
-    padding: 50px 0 30px 0;
-    margin-top: 40px;
-    color: #E8E8E8;
+    background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
+    text-align: center;
 }
 
 .light-background {
-    background: #f1f1f1;
-    padding: 50px 0 30px 0;
-    text-align: center;
+    background: white;
+    margin-right: 350px;
+    margin-left: 200px;
     margin-top: 40px;
+}
+
+
+
+/*######################### Embedded Style #########################*/
+
+
+p.p-margin {
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+h3.panel-heading {
+/*    color: white !important;
+    background-color: #52658F!important;*/
+    
+    color:#52658F!important;
+
+}
+
+div.panel {
+    border: 1px solid #52658F;
+}
+
+
+/*########################MediaQuery HD#######################*/
+@media screen and (max-width: 811px) {
+    .light-background {
+    background: white;
+    margin: 50px;
+    margin-top: 40px;
+}
 }
