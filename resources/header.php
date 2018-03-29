@@ -35,7 +35,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="listcolor" href="http://localhost/phverify/index">Home</a></li>
                     <li><a class="listcolor" href="http://localhost/phverify/about">About</a></li>
-                    <li><a class="listcolor" href="resources/resource.php">Resource</a></li>
+                    <li><a class="listcolor" href="resource.php">Resource</a></li>
                     <li><a class="listcolor" href="http://localhost/phverify/contact">Contact</a></li>
                     <li><a class="listcolor" href="http://localhost/phverify/privacy">Privacy</a></li>
                 </ul>

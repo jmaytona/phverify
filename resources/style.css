@@ -1,0 +1,222 @@
+body {
+    margin-top: 70px;
+    display: block;
+    background-color: white;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #52658F;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #52658F;
+}
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #52658F;
+}
+
+p {
+    font-family: 'Open Sans', serif;
+    color: #52658F;
+    text-align: justify;
+    line-height: 27px;
+}
+li {
+    font-family: 'Open Sans', serif;
+    color: #52658F;
+    line-height: 27px;
+    font-size: 12px;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    color: #52658F;
+}
+
+/*JUMBOTRON*/
+
+div.jumbotron {
+    text-align: center;
+    background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
+
+}
+
+.jumbotron p {
+    color: #F7F5E6;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1.display-3 {
+    font-weight: 700;
+    color: #F7F5E6;
+}
+
+/*######################### HEADER #########################*/
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: white;
+    font-size: 15px;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #333A56 !important;
+    font-weight: bold;
+}
+
+.listcolor {
+    font-size: 20px;
+    color: #333A56 !important;
+    /*background-color: white;*/
+}
+
+/*######################### INDEX PAGE #########################*/
+
+/*SEARCH FORM*/
+
+input#main-search {
+    width: 50%;
+    height: 45px;
+    margin: auto;
+    display: block;
+}
+
+button#main-search {
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 12px;
+    background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
+    color: white;
+}
+
+/*SMALL NOTE*/
+
+.note-design {
+    color: #52658F;
+    font-size: 12px;
+}
+
+/*######################### SEARCH PAGE #########################*/
+
+/*######################### SCHOOL PAGE #########################*/
+
+.banner {
+    display: block;
+    margin: auto;
+}
+
+.margin-div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.margin-terms {
+    margin-right: 50px;
+}
+
+
+/*######################### ABOUT/PRIVACY/DISCLAIMER PAGE #########################*/
+
+div.header-title {
+    text-align: center;
+}
+
+.display-about {
+    margin: 100px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*######################### CONTACT PAGE #########################*/
+
+button#contact-search{
+    background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
+}
+
+
+/*######################### FOOTER #########################*/
+
+footer {
+    background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
+    padding: 30px;
+}
+footer p {
+    color: #F7F5E6;
+}
+
+
+/*######################### Background #########################*/
+
+.dark-background {
+    background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
+    text-align: center;
+}
+
+.light-background {
+    background: white;
+    margin-right: 350px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+
+/*+++++++++++++++++++++ RESOURCES +++++++++++++++++++++*/
+
+.disclaim {
+    text-align: center;
+}
+
+/*+++++++++++++++++++++ Resources/ Background check introduction +++++++++++++++++++++*/
+
+.list-group a {
+    font-family: 'Montserrat', sans-serif;
+    color: #52658F;
+    
+}
+
+
+/*######################### Embedded Style #########################*/
+
+
+p.p-margin {
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+h3.panel-heading {
+/*    color: white !important;
+    background-color: #52658F!important;*/
+    
+    color:#52658F!important;
+
+}
+
+div.panel {
+    border: 1px solid #52658F;
+}
+
+
+/*########################MediaQuery HD#######################*/
+@media screen and (max-width: 811px) {
+    .light-background {
+    background: white;
+    margin: 50px;
+    margin-top: 40px;
+}
+}
