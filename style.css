@@ -112,6 +112,19 @@ button#main-search {
 
 /*######################### SEARCH PAGE #########################*/
 
+#main-search::-webkit-input-placeholder {
+text-align: center;
+}
+#main-search:-moz-placeholder { /* Firefox 18- */
+text-align: center;  
+}
+#main-search::-moz-placeholder {  /* Firefox 19+ */
+text-align: center;  
+}
+#main-search::-ms-input-placeholder {  
+text-align: center; 
+}
+
 /*######################### SCHOOL PAGE #########################*/
 
 .banner {

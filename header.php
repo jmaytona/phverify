@@ -9,8 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <title><?php echo $pageTitle.' - Education Verification | PHVerify'; ?></title>
-    <meta name="description" content="<?php echo $pageTitle.' - Add Description here'; ?>">
-    <meta name="keywords" content="<?php echo $pageTitle.' - Add Keyword here'; ?>">
+    <meta name="description" content="<?php echo $metaContent; ?>">
     <!--<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Vollkorn" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
@@ -35,7 +34,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="listcolor" href="http://localhost/phverify/index">Home</a></li>
                     <li><a class="listcolor" href="http://localhost/phverify/about">About</a></li>
-                    <li><a class="listcolor" href="resources/resource.php">Resource</a></li>
+                    <li><a class="listcolor" href="resources/background-check-introduction.php">Resource</a></li>
                     <li><a class="listcolor" href="http://localhost/phverify/contact">Contact</a></li>
                     <li><a class="listcolor" href="http://localhost/phverify/privacy">Privacy</a></li>
                 </ul>

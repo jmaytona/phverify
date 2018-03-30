@@ -5,11 +5,9 @@
     <br>
     <p class="text-center"><em>Disclaimer: Information shown in this website were gathered manually or electronically thru publicly available data. Please use at your own risk</em></p>
 
-<!--
 <footer>
     <p class="text-center">BGC Search Copyright &copy; 2018</p>
 </footer>
--->
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>

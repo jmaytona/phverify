@@ -1,5 +1,6 @@
 <?php
     $pageTitle = 'Disclaimer Page';
+    $metaContent = 'Read our privacy policy page here';
     include 'header.php';
 ?>
     <div class="dark-background">

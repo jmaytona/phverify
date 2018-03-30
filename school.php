@@ -4,9 +4,10 @@
 
     <?php
             $title = mysqli_real_escape_string($conn, $_GET['title']);
-            $sql = "SELECT * FROM school3 WHERE titleUrl='$title'";
+            $sql = "SELECT * FROM schoolx WHERE titleUrl='$title'";
             $result = mysqli_query($conn, $sql);
             $queryResults = mysqli_num_rows($result);
+            
 
 if ($queryResults > 0){
             while($row = mysqli_fetch_assoc($result)){
@@ -14,6 +15,7 @@ if ($queryResults > 0){
             }
 }
     /*$pageTitle = $queryResults;*/
+$metaContent = $pageTitle.': Transcript of Record not available? Check on how to verify highest education attainment needed for background check';
 include 'header.php';
 echo "    <div class='dark-background'>
         <div class='row'>
@@ -25,7 +27,6 @@ echo "    <div class='dark-background'>
 
 ?>
         <br>
-        <img class="banner" src="assets/samplebanner.png" alt="addsomething">
         <br>
 
         <div class="container">
@@ -33,7 +34,7 @@ echo "    <div class='dark-background'>
                 <div class="col-sm-8">
                     <?php
             $title = mysqli_real_escape_string($conn, $_GET['title']);
-            $sql = "SELECT * FROM school3 WHERE titleUrl='$title'";
+            $sql = "SELECT * FROM schoolx WHERE titleUrl='$title'";
             $result = mysqli_query($conn, $sql);
             $queryResults = mysqli_num_rows($result);
         
@@ -81,7 +82,6 @@ echo "    <div class='dark-background'>
                 </div>
             </div>
             <br>
-            <img class="banner" src="assets/samplebanner.png" alt="addsomething">
             <br>
 
 <?php     
