@@ -1,5 +1,6 @@
 <?php
     $pageTitle = 'Background check – Credit Check';
+    $siteTitle = 'PHVerify';
     $metaContent = 'What is an Credit check? What is it for? How can you be cleared with the check? Read to find out.';
     include 'header.php';
 ?>
@@ -27,7 +28,7 @@
         <h4><u>What can you do if there are negative or incomplete findings in your credit check? </u></h4><br>
         <p>The most common negative finding for the credit check is delinquent accounts for utilities (Meralco, Telco et) or credit cards. Since each company would have different policies, the only way to know if you can get cleared is by checking with the company. Some documents that might help you in being cleared would be certification that you are cleared with any financial obligation or documents that shows ongoing action to close the delinquent account.</p><br><br>
 
-        <a href="../index">
+        <a href="../index.php">
             <div class='card'>
                 <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>

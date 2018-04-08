@@ -1,5 +1,6 @@
 <?php
     $pageTitle = 'Background check – Criminal Check';
+    $siteTitle = 'PHVerify';
     $metaContent = 'What is an Criminal check? What is it for? How can you be cleared with the check? Read to find out.';
     include 'header.php';
 ?>
@@ -32,7 +33,7 @@
         <p>Another negative finding is if you have previous case against you but you were already cleared or exonerated. Previous cases sometimes appear in the database check conducted by third party vendors so submission of an NBI clearance or a notarized legal document regarding closure of the case might clear you from this check. However – please note that each company would have different policies regarding acceptance on those with have criminal records in the past.</p>
         <p>Lastly – if you have indeed an active criminal record, the possibility of you being cleared in the criminal check might be low as most companies require being cleared with the criminal check with no derogatory records.</p><br><br>
 
-        <a href="../index">
+        <a href="../index.php">
             <div class='card'>
                 <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>

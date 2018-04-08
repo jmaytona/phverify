@@ -1,5 +1,6 @@
 <?php
     $pageTitle = 'Background check – Identity Check';
+    $siteTitle = 'PHVerify';
     $metaContent = 'What is an identity check? What is it for? How can you be cleared with the check? Read to find out.';
     include 'header.php';
 ?>

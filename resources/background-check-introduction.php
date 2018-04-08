@@ -1,5 +1,6 @@
 <?php
     $pageTitle = 'Introduction to Background Check Process';
+    $siteTitle = 'PHVerify';
     $metaContent = 'What is a background check? What do you need to do to be cleared? Read our overview to find out.';
     include 'header.php';
 ?>

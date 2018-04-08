@@ -1,5 +1,6 @@
 <?php
     $pageTitle = 'Contact';
+    $siteTitle = 'PHVerify';
     $metaContent = 'Contact us here';
     include 'header.php';
 ?>
@@ -65,7 +66,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h1 class="display-about">For questions, comments and suggestions, you may email us at admin@phverify.com</h1>
-                    <h4 class="display-about">To report inaccurate entries, please use the report form below:</h4>
+                    <h4 class="display-about">To report inaccurate entries, please use the contact form below:</h4>
                 </div>
             </div>
         </div>
@@ -101,6 +102,10 @@
                                     <button type="submit" name="submit" class="btn btn-primary btn-lg btn-block" id="contact-search">Submit</button>
                                 </div>
                             </form>
+                            <div class="card-footer">
+                                <p>Thank you for using PHVerify.com</p>
+                                <p class="note-title">Any advice and suggestions regarding this Website will be greatly appreciated, or if you just want to say Hi! to the awesome guys who develop this Website, feel free to use this contact form.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

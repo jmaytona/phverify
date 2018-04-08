@@ -1,5 +1,6 @@
 <?php
-    $pageTitle = 'Learn More About PHverify.com';
+    $pageTitle = 'Learn More About PHVerify.com';
+    $siteTitle = 'Education Verification';
     $metaContent = 'Recruiters and Applicants: How can we help in your education check for your background investigation';
     include 'header.php';
 ?>

@@ -1,5 +1,6 @@
 <?php
     $pageTitle = 'Background check – Address Check';
+    $siteTitle = 'PHVerify';
     $metaContent = 'What is an address check? What is it for? How can you be cleared with the check? Read to find out.';
     include 'header.php';
 ?>
@@ -34,7 +35,7 @@
         <h4><u>What can you do if there are negative or incomplete findings in your address check?</u></h4><br>
         <p>The most common negative finding for the address check is if your confirmed address is now aligned with what you have declared. One way to correct this is by submitting other official or legal documents that contains your current home address like government IDs or proof of billing for utilities. If your home was not found during the ocular or site visit, you can submit a sketch or map that can indicate notable landmarks to help with the search.</p><br>
         <p>However, if the negative finding is indeed valid because you are no longer residing in your declared address (e.g. you declared your parent’s address, you are renting, you recently moved etc), you need to talk to your recruiter/HR employee to check if you can update the address that you provided.</p><br><br>
-        <a href="../index">
+        <a href="../index.php">
             <div class='card'>
                 <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>

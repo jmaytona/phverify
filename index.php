@@ -1,5 +1,6 @@
 <?php
-    $pageTitle = 'PH Verify';
+    $pageTitle = 'PHVerify';
+    $siteTitle = 'Education Verification';
     $metaContent = 'PHVerify.com is a free database that provides an easy way to check highest educational attainment needed for pre employment background checks.';
     include 'header.php';
 ?>

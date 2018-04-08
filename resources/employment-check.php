@@ -1,5 +1,6 @@
 <?php
     $pageTitle = 'Background check – Employment Check';
+    $siteTitle = 'PHVerify';
     $metaContent = 'What is an Employment check? What is it for? How can you be cleared with the check? Read to find out.';
     include 'header.php';
 ?>
@@ -45,7 +46,7 @@
         <p>Another negative finding for employment is when your previous employers shared derogatory records against you like termination due to AWOL, FRAUD etc. This also might include cases where your previous employer declared you as not eligible for rehire. Since each company would have different internal policies regarding, you might not be able to get cleared in the employment checks. You might also need to provide supporting documents that would help you in disproving the records that was declared or documents that would show that you have been cleared already with the records against you.</p>
         <p>Finally, your employment check might also be tagged as incomplete or unverified if you employers is not able to confirm or verify the information details. Some companies might not have a details verification process or the HR employees might not be consistent in verifying your declared information so you might be tagged as not completed. For instances like this – you can either provide your certificate of employment as a supporting document to show the you are cleared or you can coordinate with your previous company directly and share with your new employer how to verify the information.</p><br><br>
 
-        <a href="../index">
+        <a href="../index.php">
             <div class='card'>
                 <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>

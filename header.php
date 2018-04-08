@@ -8,9 +8,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $pageTitle.' - Education Verification | PHVerify'; ?></title>
+    <title><?php echo $pageTitle.' | '.$siteTitle; ?></title>
     <meta name="description" content="<?php echo $metaContent; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="school name, school name contact number, school name email, school name campus, school name tor, school name campus address, school name transcript of records">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Vollkorn" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap-4.0.0-beta.3-dist/css/bootstrap-grid.min.css">

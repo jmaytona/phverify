@@ -1,5 +1,6 @@
 <?php
     $pageTitle = 'Background check – Character Reference';
+    $siteTitle = 'PHVerify';
     $metaContent = 'What is an Character Reference? What is it for? How can you be cleared with the check? Read to find out.';
     include 'header.php';
 ?>
@@ -32,7 +33,7 @@
         <h4><u>What can you do if there are negative or incomplete findings in your character reference check?</u></h4><br>
         <p>The most common negative finding for the reference check is when the reference that you submitted actually provide negative or derogatory comments regarding you work ethic or personality. You may be able to clear yourself in this check by providing supporting documents like certificate of employers or providing additional references that contest the initial comments made against you.</p><br><br>
 
-        <a href="../index">
+        <a href="../index.php">
             <div class='card'>
                 <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>

@@ -1,5 +1,6 @@
 <?php
-    $pageTitle = 'Search';
+    $pageTitle = 'Search School';
+    $siteTitle = 'PHVerify';
     $metaContent = 'Search for highest educational attainment needed for pre employment background checks.';
     include 'header.php';
 ?>

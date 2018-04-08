@@ -15,12 +15,13 @@ if ($queryResults > 0){
             }
 }
     /*$pageTitle = $queryResults;*/
-$metaContent = $pageTitle.': Transcript of Record not available? Check on how to verify highest education attainment needed for background check';
+$metaContent = $pageTitle.' - Transcript of Records not available? Find out campus address, contact number, email and more. Check on how to verify highest education attainment needed for background check.';
+$siteTitle = 'PHVerify';
 include 'header.php';
 echo "    <div class='dark-background'>
         <div class='row'>
         <br>
-            <h1 class='display-about'>".$pageTitle." - Education Verification Process</h1>
+            <h1 class='display-about'>".$pageTitle." - Registrar Overview</h1>
             <br>
         </div>
     </div>"

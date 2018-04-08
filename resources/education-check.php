@@ -1,5 +1,6 @@
 <?php
     $pageTitle = 'Background check – Education Check';
+    $siteTitle = 'PHVerify';
     $metaContent = 'What is an Education check? What is it for? How can you be cleared with the check? Read to find out.';
     include 'header.php';
 ?>
@@ -43,7 +44,7 @@
         <p>The only way to provide correct the findings if this is by providing education documents supporting your claim. If you were tagged by your previous school showing that you are an undergraduate, providing a college diploma would clear you of the negative finding.</p>
         <p>Another common finding for education check is when your education attainment cannot be verified due to unresponsive schools or schools needing additional documents before verifying the details. If this happens, your education check might be tagged as incomplete or unverified since no details were checked. This might be due to some schools might requiring additional documents like Transcript of Records or notarized letter of authorization or even the Registrar’s office just not being able to consistently verify your declared information. The best way to correct this is by providing the your transcript of records or any other required documents so the check can be facilitated. Another way is to coordinate with the schools in getting their preferred verification method and sharing it directly to your employers.</p><br><br>
 
-        <a href="../index">
+        <a href="../index.php">
             <div class='card'>
                 <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>

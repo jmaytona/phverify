@@ -1,5 +1,6 @@
 <?php
-    $pageTitle = 'Disclaimer Page';
+    $pageTitle = 'Disclaimer';
+    $siteTitle = 'PHVerify';
     $metaContent = 'Read our privacy policy page here';
     include 'header.php';
 ?>
