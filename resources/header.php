@@ -1,5 +1,5 @@
 <?php
-    include 'dbh.php';
+    include '../dbh.php';
 ?>
 
 
@@ -10,36 +10,41 @@
     <meta charset="UTF-8">
     <title><?php echo $pageTitle.' - Education Verification | PHVerify'; ?></title>
     <meta name="description" content="<?php echo $metaContent; ?>">
-    <!--<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Vollkorn" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>   
+    <link rel="stylesheet" href="../bootstrap-4.0.0-beta.3-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../bootstrap-4.0.0-beta.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-                <a class="navbar-brand" href="http://localhost/phverify/index">PH Verify</a>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="listcolor" href="http://localhost/phverify/index">Home</a></li>
-                    <li><a class="listcolor" href="http://localhost/phverify/about">About</a></li>
-                    <li><a class="listcolor" href="background-check-introduction.php">Resource</a></li>
-                    <li><a class="listcolor" href="http://localhost/phverify/contact">Contact</a></li>
-                    <li><a class="listcolor" href="http://localhost/phverify/privacy">Privacy</a></li>
+        <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.php">PHVerify</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item active listcolor">
+                        <a class="nav-link" href="../index.php">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item listcolor">
+                        <a class="nav-link" href="../about.php">About</a>
+                    </li>
+                    <li class="nav-item listcolor">
+                        <a class="nav-link" href="background-check-introduction.php">Resource</a>
+                    </li>
+                    <li class="nav-item listcolor">
+                        <a class="nav-link" href="../contact.php">Contact</a>
+                    </li>
+                    <li class="nav-item listcolor">
+                        <a class="nav-link" href="../privacy.php">Privacy</a>
+                    </li>
                 </ul>
             </div>
-            <!--/.nav-collapse -->
         </div>
     </nav>
+    
     

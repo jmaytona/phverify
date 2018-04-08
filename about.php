@@ -5,7 +5,9 @@
 ?>
     <div class="dark-background">
         <div class="row">
-            <h1 class="display-about">PHVerify.com is a free database that provides an easy way to check highest educational attainment needed for pre employment background checks.</h1>
+            <div class="col-sm-12">
+                <h1 class="display-about">PHVerify.com is a free database that provides an easy way to check highest educational attainment needed for pre employment background checks.</h1>
+            </div>
         </div>
     </div>
     <div class="light-background">

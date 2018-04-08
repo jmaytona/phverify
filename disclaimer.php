@@ -5,9 +5,11 @@
 ?>
     <div class="dark-background">
         <div class="row">
-            <br>
-            <h1 class="display-about">Disclaimer Page</h1>
-            <br>
+            <div class="col-sm-12">
+                <br>
+                <h1 class="display-about">Disclaimer Page</h1>
+                <br>
+            </div>
         </div>
     </div>
     <div class="light-background">

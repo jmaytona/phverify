@@ -2,3 +2,5 @@ User-agent:*
 
 Disallow: /comments/
 Disallow: /assets/
+
+SITEMAP: http://phverify.com/sitemap.txt

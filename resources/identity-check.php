@@ -5,9 +5,11 @@
 ?>
     <div class="dark-background">
         <div class="row">
-            <br>
-            <h1 class="display-about">An identity check is a type of background check conducted to confirm or validate your identity.</h1>
-            <br>
+            <div class="col-sm-12">
+                <br>
+                <h1 class="display-about">An identity check is a type of background check conducted to confirm or validate your identity.</h1>
+                <br>
+            </div>
         </div>
     </div>
     <div class="light-background">
@@ -31,8 +33,8 @@
         <p>The best way to correct the discrepancy from different names is to provide supporting documents that would show that there is a valid reason for the difference in name. The company might require you to submit a notarized document or ask you to update the names that you have declared (versus what has been declared in the official documents)</p><br><br>
 
         <a href="../index">
-            <div class='panel panel-default'>
-                <h3 class='panel-heading'>PHVerify.com</h3>
+            <div class='card'>
+                <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>
             </div>
         </a>
@@ -41,6 +43,7 @@
             <button type="submit" name="submit-search" id="main-search" class="btn btn-primary btn-lg btn-block">Search</button>
         </form>
         <br><br>
+</div>
 
         <?php
     include 'footer.php';

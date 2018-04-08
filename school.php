@@ -31,7 +31,7 @@ echo "    <div class='dark-background'>
 
         <div class="container">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-12 col-md-8">
                     <?php
             $title = mysqli_real_escape_string($conn, $_GET['title']);
             $sql = "SELECT * FROM schoolx WHERE titleUrl='$title'";
@@ -40,8 +40,8 @@ echo "    <div class='dark-background'>
         
         if ($queryResults > 0){
             while($row = mysqli_fetch_assoc($result)){
-                echo "<a href='school.php?title=".$row['titleUrl']."'><div class='panel panel-default'></a>
-                    <h3 class='panel-heading'>".$row['schoolName']."</h3>
+                echo "<a href='school.php?title=".$row['titleUrl']."'><div class='container-fluid'><div class='card'></a>
+                    <h3 class='card-header'>".$row['schoolName']."</h3><br>
                     <p class='p-margin'><strong>Region: </strong>".$row['region']."</p>
                     <p class='p-margin'><strong>Preferred Method of Verification: </strong>".$row['method']."</p>
                     <p class='p-margin'><strong>Average Processing Time (upon submission of complete documents): </strong>".$row['processingTime']."</p>
@@ -56,9 +56,10 @@ echo "    <div class='dark-background'>
                     <p class='p-margin'><strong>Source: </strong>".$row['source']."</p>
                 <br>
                 </div>
+                </div>
                 <br>
                 <div class='margin-div'>
-                <p><em><b>DISCLAIMER:</b> While every effort has been made to offer the most current, accurate, and clearly expressed information possible. We urge you to use the information at your own risk. Our complete disclaimer page can be found <a href='disclaimer.php'>here</a> background checks.</em></p>
+                <p class='note-title'><em><b>DISCLAIMER:</b> While every effort has been made to offer the most current, accurate, and clearly expressed information possible. We urge you to use the information at your own risk. Our complete disclaimer page can be found <a href='disclaimer.php'>here</a> background checks.</em></p>
                 </div>";
             }
         } 
@@ -67,17 +68,17 @@ echo "    <div class='dark-background'>
                 <br>
                 <br>
                 <br>
-                <div class="col-sm-4">
+                <div class="col-sm-12 col-md-4">
                     <form action="search.php" method="POST" class="main-form">
                         <input class="form-control" id="main-search" type="text" name="search" placeholder="Name of School">
                         <button type="submit" name="submit-search" id="main-search" class="btn btn-primary btn-lg btn-block">Search</button>
                     </form>
                     <br>
                     <br>
-                    <p><b><em>If you are an applicant or a job seeker completing their pre-employment requirement:</em></b></p>
+                    <p class="note-title"><b><em>If you are an applicant or a job seeker completing their pre-employment requirement:</em></b></p>
                     <p class="note-design">PHverify.com can help you process your education check being done by your prospective employer. While documents like Transcript of Records (TOR) or Certified True Copy of Grades are requested from applicants as the primary way to validate highest educational attainment, some employers (depending on their background check policy) would request contact details or email addresses of colleges and university to process the education verification faster.</p>
                     <br>
-                    <p><b><em>If you are a recruiter or HR employee conducting pre employment background check:</em></b></p>
+                    <p class="note-title"><b><em>If you are a recruiter or HR employee conducting pre employment background check:</em></b></p>
                     <p class="note-design">PHverify.com can help you conduct the verification of educational attainment in your pre-employment background check. While most company utilize third party background check companies to do education verification for them, there are instances wherein the checks are not completed or goes beyond your set deadline. Additionally, verification of employees being conducted by recruiters or HR employees are very limited since the verification requirements of schools (e.g preferred method or needed documents to process verification) have to be research individually. By using the PHverify.com database, recruiters can now do internal background check verification since information regarding the verification process of colleges and universities in metro manila can be accessed.</p>
                 </div>
             </div>
@@ -87,9 +88,9 @@ echo "    <div class='dark-background'>
 <?php     
 echo "  <div class='container-fluid'>
         <div class='row'>
-        <div class='col-sm-8'>
-        <div class='panel panel-default'>
-        <h3 class='panel-heading'>Definition of Terms:</h3>
+        <div class='col-sm-12 col-md-8'>
+        <div class='card'>
+        <h3 class='card-header'>Definition of Terms:</h3>
         <ul class='margin-terms'>
             <li><b><u>Name of Institution</u></b> - Official name of ".$pageTitle." as listed in CHED's official list of Institutions of Higher Education</li>
             <li><b><u>Region</u></b> - What region is ".$pageTitle." located</li>

@@ -5,9 +5,11 @@
 ?>
     <div class="dark-background">
         <div class="row">
-            <br>
-            <h1 class="display-about">An education check is a type of background check conducted to verify the education details and the highest education attainment of the candidate.</h1>
-            <br>
+            <div class="col-sm-12">
+                <br>
+                <h1 class="display-about">An education check is a type of background check conducted to verify the education details and the highest education attainment of the candidate.</h1>
+                <br>
+            </div>
         </div>
     </div>
     <div class="light-background">
@@ -42,8 +44,8 @@
         <p>Another common finding for education check is when your education attainment cannot be verified due to unresponsive schools or schools needing additional documents before verifying the details. If this happens, your education check might be tagged as incomplete or unverified since no details were checked. This might be due to some schools might requiring additional documents like Transcript of Records or notarized letter of authorization or even the Registrar’s office just not being able to consistently verify your declared information. The best way to correct this is by providing the your transcript of records or any other required documents so the check can be facilitated. Another way is to coordinate with the schools in getting their preferred verification method and sharing it directly to your employers.</p><br><br>
 
         <a href="../index">
-            <div class='panel panel-default'>
-                <h3 class='panel-heading'>PHVerify.com</h3>
+            <div class='card'>
+                <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>
             </div>
         </a>
@@ -53,7 +55,7 @@
         </form>
         <br><br>
 
-
-        <?php
+    </div>
+    <?php
     include 'footer.php';
 ?>

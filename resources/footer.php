@@ -1,17 +1,11 @@
-    <p class="disclaim"><b>(DISCLAIMER – EACH COMPANY WOULD HAVE THEIR OWN INTERNAL POLICY REGARDING THE BACKGROUND CHECK. THE INFORMATION BELOW ARE INTENDED ONLY AS A GUIDE OR INTRODUCTION ABOUT THE TOPIC. PLEASE USE AT YOUR OWN RISK)</b></p>
-
-    </div>
-    <!--    </div>-->
-    <br>
-    <p class="text-center"><em>Disclaimer: Information shown in this website were gathered manually or electronically thru publicly available data. Please use at your own risk</em></p>
-
 <footer>
-    <p class="text-center">BGC Search Copyright &copy; 2018</p>
+    <p class="text-center">PHVerify Copyright &copy; 2018</p>
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="../bootstrap-4.0.0-beta.3-dist/js/bootstrap.min.js"></script>
 
 <script>
     /*index.php*/
@@ -48,6 +42,8 @@
     });
 
 </script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ac202f2aa421e17"></script>
 
 </body>
 

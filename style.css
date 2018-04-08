@@ -15,6 +15,7 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     color: #52658F;
 }
+
 h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
@@ -27,6 +28,7 @@ p {
     text-align: justify;
     line-height: 27px;
 }
+
 li {
     font-family: 'Open Sans', serif;
     color: #52658F;
@@ -63,8 +65,11 @@ h1.display-3 {
 
 /*NAVBAR*/
 
-.navbar{
-    background-color: white;
+nav.navbar {
+    background-color: white !important;
+}
+
+.nav {
     font-size: 15px;
     border: 0;
     font-family: 'Montserrat', sans-serif;
@@ -73,15 +78,30 @@ h1.display-3 {
 .navbar-brand {
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    color: #333A56 !important;
+    color: #333A56;
     font-weight: bold;
 }
 
 .listcolor {
     font-size: 20px;
-    color: #333A56 !important;
     /*background-color: white;*/
 }
+
+.nav-link {
+    color: #333A56;
+}
+
+    /*SMALL NOTE*/
+        .note-design {
+        color: #52658F;
+        text-align: justify;
+    }
+        .note-title {
+        color: #52658F;
+        text-align: left;
+    }
+
+
 
 /*######################### INDEX PAGE #########################*/
 
@@ -103,26 +123,31 @@ button#main-search {
     color: white;
 }
 
-/*SMALL NOTE*/
 
-.note-design {
-    color: #52658F;
-    font-size: 12px;
+/*######################### CARD #########################*/
+
+div.card {
+    margin-bottom: 20px;
 }
 
 /*######################### SEARCH PAGE #########################*/
 
 #main-search::-webkit-input-placeholder {
-text-align: center;
+    text-align: center;
 }
-#main-search:-moz-placeholder { /* Firefox 18- */
-text-align: center;  
+
+#main-search:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
 }
-#main-search::-moz-placeholder {  /* Firefox 19+ */
-text-align: center;  
+
+#main-search::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
 }
-#main-search::-ms-input-placeholder {  
-text-align: center; 
+
+#main-search::-ms-input-placeholder {
+    text-align: center;
 }
 
 /*######################### SCHOOL PAGE #########################*/
@@ -158,7 +183,7 @@ div.header-title {
 
 /*######################### CONTACT PAGE #########################*/
 
-button#contact-search{
+button#contact-search {
     background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
 }
 
@@ -169,6 +194,7 @@ footer {
     background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
     padding: 30px;
 }
+
 footer p {
     color: #F7F5E6;
 }
@@ -192,17 +218,15 @@ footer p {
 
 /*######################### Embedded Style #########################*/
 
-
 p.p-margin {
     margin-left: 40px;
     margin-right: 10px;
 }
 
 h3.panel-heading {
-/*    color: white !important;
+    /*    color: white !important;
     background-color: #52658F!important;*/
-    
-    color:#52658F!important;
+    color: #52658F!important;
 
 }
 
@@ -212,10 +236,78 @@ div.panel {
 
 
 /*########################MediaQuery HD#######################*/
+
 @media screen and (max-width: 811px) {
     .light-background {
-    background: white;
-    margin: 50px;
-    margin-top: 40px;
+        background: white;
+        margin: 50px;
+        margin-top: 40px;
+    }
 }
+
+
+@media screen and (max-width: 667px) {
+    .light-background {
+        background: white;
+        margin: 50px;
+        margin-top: 40px;
+    }
+    .jumbotron p {
+        text-align: center;
+    }
+
+    input#main-search {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+
+    button#main-search {
+        width: 100%;
+        margin: auto;
+        display: block;
+        margin-top: 12px;
+        margin-bottom: 20px;
+        background: linear-gradient(to right bottom, #333a56, #3b4464, #434f72, #4a5a80, #52658f);
+        color: white;
+    }
+
+    .display-about {
+        margin: auto;
+        display: block;
+        color: white;
+        margin-bottom: 10px;
+    }
+        h1.display-about {
+        font-size: 30px;
+    }
+        h4.display-about {
+        font-size: 20px;
+    }
+    
+        p {
+        margin: auto;
+        text-align: left;
+    }
+        p.p-margin {
+        margin: 5px;
+        padding: auto;
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    /*SMALL NOTE*/
+        .note-design {
+        color: #52658F;
+        text-align: justify;
+    }
+    
+        .note-title {
+        color: #52658F;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+
 }

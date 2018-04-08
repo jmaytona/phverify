@@ -5,9 +5,11 @@
 ?>
     <div class="dark-background">
         <div class="row">
-            <br>
-            <h1 class="display-about">An employment check is a type of background check conducted verify the employment details from your previous company or employers.</h1>
-            <br>
+            <div class="col-sm-12">
+                <br>
+                <h1 class="display-about">An employment check is a type of background check conducted verify the employment details from your previous company or employers.</h1>
+                <br>
+            </div>
         </div>
     </div>
     <div class="light-background">
@@ -44,8 +46,8 @@
         <p>Finally, your employment check might also be tagged as incomplete or unverified if you employers is not able to confirm or verify the information details. Some companies might not have a details verification process or the HR employees might not be consistent in verifying your declared information so you might be tagged as not completed. For instances like this – you can either provide your certificate of employment as a supporting document to show the you are cleared or you can coordinate with your previous company directly and share with your new employer how to verify the information.</p><br><br>
 
         <a href="../index">
-            <div class='panel panel-default'>
-                <h3 class='panel-heading'>PHVerify.com</h3>
+            <div class='card'>
+                <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>
             </div>
         </a>
@@ -54,8 +56,8 @@
             <button type="submit" name="submit-search" id="main-search" class="btn btn-primary btn-lg btn-block">Search</button>
         </form>
         <br><br>
+    </div>
 
-
-        <?php
+    <?php
     include 'footer.php';
 ?>

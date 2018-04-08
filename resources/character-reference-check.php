@@ -5,9 +5,11 @@
 ?>
     <div class="dark-background">
         <div class="row">
-            <br>
-            <h1 class="display-about">A character reference check is a type of background check conducted to check for feedback regarding a candidate’s character, attitude or personality.</h1>
-            <br>
+            <div class="col-sm-12">
+                <br>
+                <h1 class="display-about">A character reference check is a type of background check conducted to check for feedback regarding a candidate’s character, attitude or personality.</h1>
+                <br>
+            </div>
         </div>
     </div>
     <div class="light-background">
@@ -31,8 +33,8 @@
         <p>The most common negative finding for the reference check is when the reference that you submitted actually provide negative or derogatory comments regarding you work ethic or personality. You may be able to clear yourself in this check by providing supporting documents like certificate of employers or providing additional references that contest the initial comments made against you.</p><br><br>
 
         <a href="../index">
-            <div class='panel panel-default'>
-                <h3 class='panel-heading'>PHVerify.com</h3>
+            <div class='card'>
+                <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>
             </div>
         </a>
@@ -41,8 +43,9 @@
             <button type="submit" name="submit-search" id="main-search" class="btn btn-primary btn-lg btn-block">Search</button>
         </form>
         <br><br>
+    </div>
 
 
-        <?php
+    <?php
     include 'footer.php';
 ?>

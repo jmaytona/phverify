@@ -5,9 +5,11 @@
 ?>
     <div class="dark-background">
         <div class="row">
-            <br>
-            <h1 class="display-about">An address check is a type of background check conducted to collect information regarding your current home location.</h1>
-            <br>
+            <div class="col-sm-12">
+                <br>
+                <h1 class="display-about">An address check is a type of background check conducted to collect information regarding your current home location.</h1>
+                <br>
+            </div>
         </div>
     </div>
     <div class="light-background">
@@ -33,8 +35,8 @@
         <p>The most common negative finding for the address check is if your confirmed address is now aligned with what you have declared. One way to correct this is by submitting other official or legal documents that contains your current home address like government IDs or proof of billing for utilities. If your home was not found during the ocular or site visit, you can submit a sketch or map that can indicate notable landmarks to help with the search.</p><br>
         <p>However, if the negative finding is indeed valid because you are no longer residing in your declared address (e.g. you declared your parent’s address, you are renting, you recently moved etc), you need to talk to your recruiter/HR employee to check if you can update the address that you provided.</p><br><br>
         <a href="../index">
-            <div class='panel panel-default'>
-                <h3 class='panel-heading'>PHVerify.com</h3>
+            <div class='card'>
+                <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>
             </div>
         </a>
@@ -43,7 +45,7 @@
             <button type="submit" name="submit-search" id="main-search" class="btn btn-primary btn-lg btn-block">Search</button>
         </form>
         <br><br>
-
-        <?php
+    </div>
+    <?php
     include 'footer.php';
 ?>

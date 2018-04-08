@@ -5,9 +5,11 @@
 ?>
     <div class="dark-background">
         <div class="row">
-            <br>
-            <h1 class="display-about">A criminal check is a type of background check conducted to see if a candidate has an active or ongoing criminal case or to check if a candidate has been convicted of any crime or has been involved in criminal activities. </h1>
-            <br>
+            <div class="col-sm-12">
+                <br>
+                <h1 class="display-about">A criminal check is a type of background check conducted to see if a candidate has an active or ongoing criminal case or to check if a candidate has been convicted of any crime or has been involved in criminal activities. </h1>
+                <br>
+            </div>
         </div>
     </div>
     <div class="light-background">
@@ -31,8 +33,8 @@
         <p>Lastly – if you have indeed an active criminal record, the possibility of you being cleared in the criminal check might be low as most companies require being cleared with the criminal check with no derogatory records.</p><br><br>
 
         <a href="../index">
-            <div class='panel panel-default'>
-                <h3 class='panel-heading'>PHVerify.com</h3>
+            <div class='card'>
+                <h3 class='card-header'>PHVerify.com</h3>
                 <p class="p-margin">Is a free and comprehensive database that contains the education verification information of CHED recognized colleges and universities in Metro Manila (NCR and CALABARZON). It's primarily designed to provide an easy way of getting verification details from colleges and universities which is needed for checking highest educational attainment on their pre-employment background checks.</p><br>
             </div>
         </a>
@@ -41,7 +43,7 @@
             <button type="submit" name="submit-search" id="main-search" class="btn btn-primary btn-lg btn-block">Search</button>
         </form>
         <br><br>
-
-        <?php
+    </div>
+    <?php
     include 'footer.php';
 ?>
